@@ -8,9 +8,9 @@ def list_multiply(lst):
 
 def main():
     lst = [5, 2.5, 100, -10]
-    print(lst)
+    print(f"Original list: {lst}")
     print(list_multiply(lst))
-    print(lst)
+    print(f"Modified list: {lst}")
     
 
 main()

@@ -8,9 +8,9 @@ def remove_elements(lst):
     
 def main():
     lst = [5, 2.5, 100, -10]
-    print(lst)
+    print(f"Original: {lst}")
     remove_elements(lst)
-    print(lst)
-    
+    print(f"{lst}")
+
 
 main()
